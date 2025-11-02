@@ -2,7 +2,7 @@
 
 export default function SegmentationHero() {
   return (
-    <section className="px-4 py-16 md:py-24 max-w-7xl mx-auto">
+    <section className="px-4 py-3 md:py-5 max-w-7xl mx-auto">
       <div className="text-center space-y-6">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight">
           <span className="bg-gradient-to-r from-blue-600 to-blue-800 dark:from-blue-400 dark:to-blue-300 bg-clip-text text-transparent">

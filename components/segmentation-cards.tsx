@@ -75,7 +75,7 @@ interface SegmentationCardsProps {
 
 export default function SegmentationCards({ onSelectSegment }: SegmentationCardsProps) {
   return (
-    <section className="px-4 py-16 md:py-24 max-w-7xl mx-auto">
+    <section className="px-4 py-3 md:py-5 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
         {SEGMENTS.map((segment) => {
           const Icon = segment.icon

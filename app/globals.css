@@ -124,3 +124,33 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes fadeInOutLetter {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  10%, 90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-letter {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeInOutLetter 10s infinite;
+  will-change: transform, opacity;
+  contain: content;
+}
+
+.animate-letter-delay {
+  animation-delay: calc(var(--letter-index) * 0.1s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-letter {
+    animation: none;
+    opacity: 1;
+  }
+}
