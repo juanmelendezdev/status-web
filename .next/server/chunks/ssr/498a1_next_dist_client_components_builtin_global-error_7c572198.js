@@ -1,0 +1,3 @@
+module.exports=[51937,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(18266);a.n(d("[project]/OneDrive/Fotos/status int/proyectos web 2025 - clientes/status-web/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},56490,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(18266);a.n(d("[project]/OneDrive/Fotos/status int/proyectos web 2025 - clientes/status-web/node_modules/next/dist/client/components/builtin/global-error.js"))},19094,a=>{"use strict";a.i(51937);var b=a.i(56490);a.n(b)}];
+
+//# sourceMappingURL=498a1_next_dist_client_components_builtin_global-error_7c572198.js.map
