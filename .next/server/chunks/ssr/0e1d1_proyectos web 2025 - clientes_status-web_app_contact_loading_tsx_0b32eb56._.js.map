@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/OneDrive/Fotos/status int/proyectos web 2025 - clientes/status-web/app/contact/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n  return null\r\n}\r\n"],"names":[],"mappings":"uCAAe,SAAS,IACtB,OAAO,IACT"}
